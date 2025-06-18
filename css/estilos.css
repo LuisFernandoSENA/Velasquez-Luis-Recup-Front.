@@ -146,3 +146,11 @@ button:hover {
   position: sticky;
   width: 100%;
 }
+
+/* mejora al modo responsivo*/
+@media(max-width: 600px) {
+  .formulario{
+    width: 90%;
+    padding: 10 px;
+  }
+}
