@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registrarse - Floristería Expertobra</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body class="bg-light">
+
+<div class="container py-4">
+
+  <div class="text-center mb-3">
+    <img src="img/logo.png" alt="Logo Florista" width="180">
+  </div>
+
+  <p class="lead text-center mb-4">
+    Registre sus datos y pague la suscripción anual para tener acceso a la bolsa de empleo.
+  </p>
+
+  <form class="bg-white p-4 shadow-sm rounded">
+    <h5 class="mb-3"><i class="bi bi-person-fill-lock me-2"></i>Información Personal</h5>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <label class="form-label text-danger">No. Documento *</label>
+        <input type="text" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label text-danger">Nombres Completos *</label>
+        <input type="text" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label text-danger">No. Celular *</label>
+        <input type="tel" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label text-danger">Email *</label>
+        <input type="email" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label text-danger">Profesión *</label>
+        <input type="text" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label text-danger">Contraseña (Min 8 Max 10 caracteres) *</label>
+        <input type="password" class="form-control" minlength="8" maxlength="10" required>
+      </div>
+    </div>
+
+    <hr class="my-4">
+
+    <h5><i class="bi bi-chat-left-text me-2"></i>Descripción del Perfil</h5>
+    <div class="mb-3">
+      <textarea class="form-control" rows="4" placeholder="Describa su perfil profesional y laboral brevemente."></textarea>
+    </div>
+
+    <h5><i class="bi bi-image me-2"></i>Foto</h5>
+    <div class="mb-3">
+      <p class="small">Tipos de archivos permitidos: JPG, JPEG, PNG. Tamaño máximo 50MB. Resolución recomendada 500px x 500px o superior manteniendo el aspecto cuadrado (1:1)</p>
+      <input type="file" class="form-control">
+    </div>
+
+    <p class="text-muted small">Los campos marcados con * son obligatorios</p>
+
+    <div class="text-center">
+      <button type="submit" class="btn btn-warning text-white px-5">
+        <i class="bi bi-save me-2"></i>GUARDAR
+      </button>
+    </div>
+  </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+<footer class="bg-primary text-white text-center py-3 mt-auto mw-100">
+    <div>
+          <small>Copyright © Expertobra SAS. All Right Reserved.</small><br>
+          <small>Designed by HTML — Distributed by Esquivel-Ingeniero</small>
+    </div>
+</footer>
+
+</html>

@@ -114,4 +114,13 @@ input:valid {
   text-decoration: underline;
 }
 
+.btn-warning {
+  background-color: #F39200;
+  border-color: #F39200;
+}
+
+.btn-warning:hover {
+  background-color: #c97c00;
+  border-color: #c97c00;
+}
 
