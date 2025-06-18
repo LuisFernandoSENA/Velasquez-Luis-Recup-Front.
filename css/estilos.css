@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #f1f1f1;
+  background: #548C82;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,7 +80,7 @@ input, select {
 }
 
 input:focus, select:focus {
-  border-color: #8a2be2;
+  border-color: #548C82;
   outline: none;
 }
 
@@ -98,7 +98,7 @@ input:valid {
   display: block;
   width: 100%;
   padding: 0.8rem;
-  background: #8a2be2;
+  background: #548C82;
   color: white;
   border: none;
   border-radius: 8px;
