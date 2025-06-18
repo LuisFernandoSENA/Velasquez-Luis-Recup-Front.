@@ -1,4 +1,4 @@
-
+/*  estilos generales*/
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +14,7 @@ body {
   min-height: 100vh;
 }
 
+/* fondo de  iamgen*/
 .fondo {
   position: absolute;
   top: 0;
@@ -25,6 +26,7 @@ body {
   filter: brightness(0.7);
 }
 
+/* contenedos de formulario*/
 .formulario {
   background: white;
   padding: 2rem 2.5rem;
@@ -42,12 +44,14 @@ body {
   max-width: 120px;
 }
 
+/* titulo de formulario*/
 .formulario h2 {
   text-align: center;
   margin-bottom: 1rem;
   color: #333;
 }
 
+/* inputs y etiquetas */
 label {
   display: block;
   margin-bottom: 0.5rem;
@@ -80,6 +84,7 @@ input:focus, select:focus {
   outline: none;
 }
 
+/* validacion  de inputs*/
 input:invalid {
   border: 3px solid red;
 }
@@ -88,6 +93,7 @@ input:valid {
   border: 3px solid green;
 }
 
+/*botones */
 .boton {
   display: block;
   width: 100%;
@@ -101,6 +107,7 @@ input:valid {
   cursor: pointer;
 }
 
+/* enlaces*/
 .enlace {
   display: block;
   text-align: center;
@@ -114,6 +121,7 @@ input:valid {
   text-decoration: underline;
 }
 
+/* botones colores  y personalizacion*/
 .btn-warning {
   background-color: #F39200;
   border-color: #F39200;
@@ -124,6 +132,7 @@ input:valid {
   border-color: #c97c00;
 }
 
+/* bordes redondeado, sombra y efecto hover*/
 input {
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
