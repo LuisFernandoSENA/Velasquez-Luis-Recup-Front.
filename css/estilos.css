@@ -132,3 +132,8 @@ input {
 button:hover {
   background-color: #ffb6c1;
 }
+
+.footer{
+  position: sticky;
+  width: 100%;
+}
